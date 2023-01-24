@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0 3vw; /* RWD */
+}
+
+.navbar_logo {
+  font-size: 3.8vw; /* RWD */
+  font-weight: bold;
+}
+.navbar_menu {
+  font-size: 1.9vw; /* RWD */
+  font-weight: 300;
+  display: inline;
+}
+.navbar_menu a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 2vw; /* RWD */
+}
+.navbar_menu a.active {
+  font-weight: bold;
+  border-bottom: 2px solid red;
+}
+.navbar_menu a:hover {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.main_image {
+  width: 55%;
+}
+.main_text {
+  width: 45%;
+}
+.main_text-heading {
+  font-size: 3.8vw; /* RWD */
+  font-weight: 500;
+  text-align: justify;
+}
+.main_text-description {
+  font-size: 1.3vw; /* RWD */
+  text-align: justify;
+}
+.main_text-btn {
+  text-align: center;
+  padding: 4vw; /* RWD */
+}
+.main_text .flakes {
+  height: 50px;
+}
+
+.btn {
+  display: inline-block; /* RWD */
+  width: 15vw; /* RWD */
+  font-size: 2.8vw; /* RWD */
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 1vw; /* RWD */
+  padding: 0.8vw 0; /* RWD */
+}
+
+ /* 6 - Positioning Content */
+.container {
+  padding-top: 5vh; /* RWD */
+  padding-left: 3vw; /* RWD */
+  padding-right: 3vw; /* RWD */
+  background-image: url("images/flakes-1.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain; /* RWD */
+}
+
+.columns {
+  padding-top: 1.5vh; /* RWD */
+  padding-left: 1.5vw; /* RWD */
+  padding-right: 1.5vw; /* RWD */
+  background-image: url("images/flakes-2.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain; /* RWD */
+}
+.columns_1-3 {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 1.5vw; /* RWD */
+  padding-right: 1.5vw; /* RWD */
+}
